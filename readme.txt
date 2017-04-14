@@ -9,6 +9,7 @@
 ##         Based on:  Auto Warnings 1.0 by Koos (pampoen10@yahoo.com)
 ##
 ##      Description:  Adds warning/infraction system to your forum.
+##      DS features:  Works with current version of PMS New, displays warning labels in the wrong posts.
 ##
 ##   Affected files:  footer.php
 ##                    profile.php
