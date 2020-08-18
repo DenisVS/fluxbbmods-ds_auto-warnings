@@ -1,5 +1,5 @@
 <?php
-//$Id: footer_links.php 2 2017-04-13 16:06:22Z denis $
+//$Id$
 if ($footer_style != 'warnings') {
 ?>
 			<dl id="searchlinks" class="conl">

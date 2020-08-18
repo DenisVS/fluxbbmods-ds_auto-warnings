@@ -1,4 +1,4 @@
-## $Id: readme.txt 3 2017-04-13 16:22:56Z denis $
+## $Id$
 ##
 ##        Mod title:  DS Auto Warnings
 ##

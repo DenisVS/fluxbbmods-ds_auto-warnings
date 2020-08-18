@@ -1,5 +1,5 @@
 <?php
-//$Id: warnings.php 2 2017-04-13 16:06:22Z denis $
+//$Id$
 // Language definitions used by the Warnings Mod
 $lang_warnings = array(
 

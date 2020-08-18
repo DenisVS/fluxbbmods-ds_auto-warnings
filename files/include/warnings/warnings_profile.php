@@ -1,5 +1,5 @@
 <?php
-//$Id: warnings_profile.php 2 2017-04-13 16:06:22Z denis $
+//$Id$
 // Load the warnings.php language file
 require PUN_ROOT.'lang/'.$pun_user['language'].'/warnings.php';
 

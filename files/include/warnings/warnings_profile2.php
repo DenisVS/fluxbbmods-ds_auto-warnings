@@ -1,5 +1,5 @@
 <?php
-//$Id: warnings_profile2.php 2 2017-04-13 16:06:22Z denis $
+//$Id$
 if ($pun_user['is_admmod'] && $pun_config['o_warnings_enabled'] == '1')
 {
 	// Load the warnings.php language file

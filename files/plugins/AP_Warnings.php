@@ -1,5 +1,5 @@
 <?php
-//$Id: AP_Warnings.php 2 2017-04-13 16:06:22Z denis $
+//$Id$
 // Make sure no one attempts to run this script "directly"
 if (!defined('PUN'))
 	exit;

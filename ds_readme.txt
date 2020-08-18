@@ -1,4 +1,4 @@
-//$Id: ds_readme.txt 3 2017-04-13 16:22:56Z denis $
+//$Id$
 //Based on:  Auto Warnings 1.0 by Koos (pampoen10@yahoo.com)
 ***Changed
 readme.txt

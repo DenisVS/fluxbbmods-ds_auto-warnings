@@ -1,6 +1,6 @@
 <?php
 
-//$Id: warnings.php 2 2017-04-13 16:06:22Z denis $
+//$Id$
 
 define('PUN_ROOT', dirname(__FILE__).'/');
 require PUN_ROOT.'include/common.php';
