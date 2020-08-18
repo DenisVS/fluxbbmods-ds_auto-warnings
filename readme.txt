@@ -2,9 +2,9 @@
 ##
 ##        Mod title:  DS Auto Warnings
 ##
-##      Mod version:  1.0
-##  Works on FluxBB:  1.5.10
-##     Release date:  2017-04-12
+##      Mod version:  1.1
+##  Works on FluxBB:  1.5.10, 1.5.11
+##     Release date:  2020-08-18
 ##           Author:  DenisVS (deniswebcomm@gmail.com)
 ##         Based on:  Auto Warnings 1.0 by Koos (pampoen10@yahoo.com)
 ##
@@ -148,7 +148,7 @@ viewtopic.php
 #---------[ 13. FIND ]---------------------------------------------
 #
 
-p.edit_post, 					
+p.edited_by, 					
 
 #
 #---------[ 14. AFTER, ADD ]---------------------------------------------------

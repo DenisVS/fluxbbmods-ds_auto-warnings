@@ -7,8 +7,8 @@
 // Some info about your mod.
 //Based on:  Auto Warnings 1.0 by Koos (pampoen10@yahoo.com)
 $mod_title      = 'DS Auto Warnings';
-$mod_version    = '1.0';
-$release_date   = '2017-04-12';
+$mod_version    = '1.1';
+$release_date   = '2020-08-18';
 $author         = 'DenisVS';
 $author_email   = 'deniswebcomm@gmail.com';
 // Set this to false if you haven't implemented the restore function (see below)
@@ -22,7 +22,7 @@ function install()
 
 
 
-	$db->add_field('posts', 'warning', 'TINYINT(1) UNSIGNED', true, NULL, 'edit_post') or error('Unable to add column "warning" to table "posts"', __FILE__, __LINE__, $db->error());
+	$db->add_field('posts', 'warning', 'TINYINT(1) UNSIGNED', true, NULL, 'topic_id') or error('Unable to add column "warning" to table "posts"', __FILE__, __LINE__, $db->error());
 
 
 	//New Install

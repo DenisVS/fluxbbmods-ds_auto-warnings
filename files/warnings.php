@@ -168,8 +168,15 @@ if (isset($_POST['form_sent']))
 				<p><?php echo $lang_warnings['Post errors info'] ?></p>
 				<ul>
 	<?php
-	
-		while (list(, $cur_error) = each($errors))
+	function myEach(&$arr) {
+		$key = key($arr);
+		$result = ($key === null) ? false : [$key, current($arr), 'key' => $key, 'value' => current($arr)];
+		next($arr);
+		return $result;
+	}
+
+		while (list(, $cur_error) = myEach($errors))
+		//while (list(, $cur_error) = each($errors))
 			echo "\t\t\t\t".'<li><strong>'.$cur_error.'</strong></li>'."\n";
 	?>
 				</ul>
